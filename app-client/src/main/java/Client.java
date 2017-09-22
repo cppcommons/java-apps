@@ -14,6 +14,7 @@ public class Client {
         val data = new MyData("A");
         log.info(data.toString());
         log.info("data={}", data);
+        log.info("{}", data.getNumber());
     }
 
     @Data
